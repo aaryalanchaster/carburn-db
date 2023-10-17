@@ -1,0 +1,39 @@
+{
+  "name": "carburn-ip",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "next": "latest",
+    "papaparse": "^5.4.1",
+    "react": "latest",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "latest",
+    "tailwind-override": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/papaparse": "^5.3.9",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "postcss": "latest",
+    "prettier": "^3.0.3",
+    "prettier-eslint": "^15.0.1",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
